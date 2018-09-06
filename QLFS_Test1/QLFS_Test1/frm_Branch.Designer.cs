@@ -38,9 +38,11 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txt_path = new System.Windows.Forms.TextBox();
+            this.txt_PathScan = new System.Windows.Forms.TextBox();
             this.txt_BranchName = new System.Windows.Forms.TextBox();
-            this.txt_ID_Branch = new System.Windows.Forms.TextBox();
+            this.txt_IDBranch = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txt_PathRar = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dg_Show)).BeginInit();
             this.SuspendLayout();
             // 
@@ -150,9 +152,9 @@
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(122, 209);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 13);
+            this.label4.Size = new System.Drawing.Size(109, 13);
             this.label4.TabIndex = 19;
-            this.label4.Text = "Đường Dẫn Lưu File";
+            this.label4.Text = "Đường Dẫn File Scan";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
@@ -185,16 +187,16 @@
             this.label2.Text = "Mã Chi Nhánh";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // txt_path
+            // txt_PathScan
             // 
-            this.txt_path.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txt_PathScan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_path.Location = new System.Drawing.Point(345, 207);
-            this.txt_path.Name = "txt_path";
-            this.txt_path.Size = new System.Drawing.Size(814, 20);
-            this.txt_path.TabIndex = 16;
-            this.txt_path.TextChanged += new System.EventHandler(this.txt_path_TextChanged);
+            this.txt_PathScan.Location = new System.Drawing.Point(345, 207);
+            this.txt_PathScan.Name = "txt_PathScan";
+            this.txt_PathScan.Size = new System.Drawing.Size(814, 20);
+            this.txt_PathScan.TabIndex = 16;
+            this.txt_PathScan.TextChanged += new System.EventHandler(this.txt_path_TextChanged);
             // 
             // txt_BranchName
             // 
@@ -207,22 +209,40 @@
             this.txt_BranchName.TabIndex = 15;
             this.txt_BranchName.TextChanged += new System.EventHandler(this.txt_BranchName_TextChanged);
             // 
-            // txt_ID_Branch
+            // txt_IDBranch
             // 
-            this.txt_ID_Branch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.txt_IDBranch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txt_ID_Branch.Location = new System.Drawing.Point(345, 111);
-            this.txt_ID_Branch.Name = "txt_ID_Branch";
-            this.txt_ID_Branch.Size = new System.Drawing.Size(814, 20);
-            this.txt_ID_Branch.TabIndex = 14;
-            this.txt_ID_Branch.TextChanged += new System.EventHandler(this.txt_ID_Branch_TextChanged);
+            this.txt_IDBranch.Location = new System.Drawing.Point(345, 111);
+            this.txt_IDBranch.Name = "txt_IDBranch";
+            this.txt_IDBranch.Size = new System.Drawing.Size(814, 20);
+            this.txt_IDBranch.TabIndex = 14;
+            this.txt_IDBranch.TextChanged += new System.EventHandler(this.txt_ID_Branch_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(125, 240);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(104, 13);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Đường Dẫn File Nén";
+            // 
+            // txt_PathRar
+            // 
+            this.txt_PathRar.Location = new System.Drawing.Point(345, 240);
+            this.txt_PathRar.Name = "txt_PathRar";
+            this.txt_PathRar.Size = new System.Drawing.Size(814, 20);
+            this.txt_PathRar.TabIndex = 28;
             // 
             // frm_Branch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1293, 611);
+            this.Controls.Add(this.txt_PathRar);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dg_Show);
             this.Controls.Add(this.cmd_Exit);
@@ -233,9 +253,9 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txt_path);
+            this.Controls.Add(this.txt_PathScan);
             this.Controls.Add(this.txt_BranchName);
-            this.Controls.Add(this.txt_ID_Branch);
+            this.Controls.Add(this.txt_IDBranch);
             this.Name = "frm_Branch";
             this.Text = "frm_Branch";
             ((System.ComponentModel.ISupportInitialize)(this.dg_Show)).EndInit();
@@ -256,8 +276,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txt_path;
+        private System.Windows.Forms.TextBox txt_PathScan;
         private System.Windows.Forms.TextBox txt_BranchName;
-        private System.Windows.Forms.TextBox txt_ID_Branch;
+        private System.Windows.Forms.TextBox txt_IDBranch;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txt_PathRar;
     }
 }
