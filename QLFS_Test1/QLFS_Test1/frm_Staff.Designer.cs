@@ -44,11 +44,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dg_Show)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,12 +111,6 @@
             // 
             this.dg_Show.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dg_Show.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dg_Show.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5});
             this.dg_Show.Location = new System.Drawing.Point(28, 371);
             this.dg_Show.Name = "dg_Show";
             this.dg_Show.RowTemplate.Height = 24;
@@ -225,46 +214,6 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // Column1
-            // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column1.FillWeight = 80.76583F;
-            this.Column1.HeaderText = "Đăng Nhập";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 68;
-            // 
-            // Column2
-            // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column2.FillWeight = 111.7826F;
-            this.Column2.HeaderText = "Hệ Thống";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 61;
-            // 
-            // Column3
-            // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.Column3.FillWeight = 90.20702F;
-            this.Column3.HeaderText = "Quản Lý";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 53;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.Column4.FillWeight = 79.77518F;
-            this.Column4.HeaderText = "Thống Kê";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 60;
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.Column5.FillWeight = 67.46934F;
-            this.Column5.HeaderText = "Truy Vấn";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 56;
-            // 
             // frm_Staff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -312,10 +261,5 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn Column5;
     }
 }
