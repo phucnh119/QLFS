@@ -90,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_Account.resx">
+      <DependentUpon>frm_Account.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Branch.resx">
       <DependentUpon>frm_Branch.cs</DependentUpon>
     </EmbeddedResource>
