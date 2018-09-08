@@ -43,6 +43,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txt_PathRar = new System.Windows.Forms.TextBox();
             this.dg_show = new System.Windows.Forms.DataGridView();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txt_Search = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dg_show)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,8 +72,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Exit.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Exit.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Exit.Location = new System.Drawing.Point(584, 299);
-            this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Exit.Location = new System.Drawing.Point(576, 313);
+            this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Exit.Name = "cmd_Exit";
             this.cmd_Exit.Size = new System.Drawing.Size(94, 32);
             this.cmd_Exit.TabIndex = 24;
@@ -86,8 +88,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Save.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Save.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Save.Location = new System.Drawing.Point(482, 299);
-            this.cmd_Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Save.Location = new System.Drawing.Point(474, 313);
+            this.cmd_Save.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Save.Name = "cmd_Save";
             this.cmd_Save.Size = new System.Drawing.Size(94, 32);
             this.cmd_Save.TabIndex = 23;
@@ -102,8 +104,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Delete.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Delete.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Delete.Location = new System.Drawing.Point(380, 299);
-            this.cmd_Delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Delete.Location = new System.Drawing.Point(372, 313);
+            this.cmd_Delete.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Delete.Name = "cmd_Delete";
             this.cmd_Delete.Size = new System.Drawing.Size(94, 32);
             this.cmd_Delete.TabIndex = 22;
@@ -118,8 +120,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Update.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Update.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Update.Location = new System.Drawing.Point(278, 299);
-            this.cmd_Update.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Update.Location = new System.Drawing.Point(270, 313);
+            this.cmd_Update.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Update.Name = "cmd_Update";
             this.cmd_Update.Size = new System.Drawing.Size(94, 32);
             this.cmd_Update.TabIndex = 21;
@@ -134,8 +136,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Add.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Add.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Add.Location = new System.Drawing.Point(176, 299);
-            this.cmd_Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Add.Location = new System.Drawing.Point(168, 313);
+            this.cmd_Add.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Add.Name = "cmd_Add";
             this.cmd_Add.Size = new System.Drawing.Size(94, 32);
             this.cmd_Add.TabIndex = 20;
@@ -197,7 +199,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_PathScan.Location = new System.Drawing.Point(181, 212);
-            this.txt_PathScan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_PathScan.Margin = new System.Windows.Forms.Padding(4);
             this.txt_PathScan.Name = "txt_PathScan";
             this.txt_PathScan.Size = new System.Drawing.Size(473, 26);
             this.txt_PathScan.TabIndex = 16;
@@ -209,7 +211,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_BranchName.Location = new System.Drawing.Point(181, 178);
-            this.txt_BranchName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_BranchName.Margin = new System.Windows.Forms.Padding(4);
             this.txt_BranchName.Name = "txt_BranchName";
             this.txt_BranchName.Size = new System.Drawing.Size(473, 26);
             this.txt_BranchName.TabIndex = 15;
@@ -221,7 +223,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_IDBranch.Location = new System.Drawing.Point(181, 144);
-            this.txt_IDBranch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_IDBranch.Margin = new System.Windows.Forms.Padding(4);
             this.txt_IDBranch.Name = "txt_IDBranch";
             this.txt_IDBranch.Size = new System.Drawing.Size(473, 26);
             this.txt_IDBranch.TabIndex = 14;
@@ -243,7 +245,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_PathRar.Location = new System.Drawing.Point(181, 246);
-            this.txt_PathRar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_PathRar.Margin = new System.Windows.Forms.Padding(4);
             this.txt_PathRar.Name = "txt_PathRar";
             this.txt_PathRar.Size = new System.Drawing.Size(473, 26);
             this.txt_PathRar.TabIndex = 28;
@@ -254,16 +256,34 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dg_show.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dg_show.Location = new System.Drawing.Point(13, 342);
+            this.dg_show.Location = new System.Drawing.Point(13, 352);
             this.dg_show.Name = "dg_show";
-            this.dg_show.Size = new System.Drawing.Size(811, 387);
+            this.dg_show.Size = new System.Drawing.Size(811, 377);
             this.dg_show.TabIndex = 29;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(25, 287);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 19);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "Tìm kiếm";
+            // 
+            // txt_Search
+            // 
+            this.txt_Search.Location = new System.Drawing.Point(181, 280);
+            this.txt_Search.Name = "txt_Search";
+            this.txt_Search.Size = new System.Drawing.Size(473, 26);
+            this.txt_Search.TabIndex = 31;
             // 
             // frm_Branch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(835, 741);
+            this.Controls.Add(this.txt_Search);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.dg_show);
             this.Controls.Add(this.txt_PathRar);
             this.Controls.Add(this.label5);
@@ -280,7 +300,7 @@
             this.Controls.Add(this.txt_BranchName);
             this.Controls.Add(this.txt_IDBranch);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_Branch";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý đơn vị";
@@ -308,5 +328,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txt_PathRar;
         private System.Windows.Forms.DataGridView dg_show;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txt_Search;
     }
 }
