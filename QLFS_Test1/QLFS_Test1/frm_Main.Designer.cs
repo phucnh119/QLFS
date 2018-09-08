@@ -40,8 +40,12 @@
             this.ts_DestroyVC = new System.Windows.Forms.ToolStripMenuItem();
             this.ts_VCScan = new System.Windows.Forms.ToolStripMenuItem();
             this.ts_VCSave = new System.Windows.Forms.ToolStripMenuItem();
-            this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.truyVấnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ts_Report = new System.Windows.Forms.ToolStripMenuItem();
+            this.ts_Search = new System.Windows.Forms.ToolStripMenuItem();
+            this.ts_ReportVCScan = new System.Windows.Forms.ToolStripMenuItem();
+            this.ts_ReportVCSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.ts_ReportVCPublish = new System.Windows.Forms.ToolStripMenuItem();
+            this.ts_reportVCNotPublish = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,8 +54,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ts_System,
             this.ts_Manage,
-            this.thốngKêToolStripMenuItem,
-            this.truyVấnToolStripMenuItem});
+            this.ts_Report,
+            this.ts_Search});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
@@ -136,17 +140,46 @@
             this.ts_VCSave.Size = new System.Drawing.Size(180, 22);
             this.ts_VCSave.Text = "Chứng Thư Lưu";
             // 
-            // thốngKêToolStripMenuItem
+            // ts_Report
             // 
-            this.thốngKêToolStripMenuItem.Name = "thốngKêToolStripMenuItem";
-            this.thốngKêToolStripMenuItem.Size = new System.Drawing.Size(70, 19);
-            this.thốngKêToolStripMenuItem.Text = "&Thống Kê";
+            this.ts_Report.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ts_ReportVCScan,
+            this.ts_ReportVCSave,
+            this.ts_ReportVCPublish,
+            this.ts_reportVCNotPublish});
+            this.ts_Report.Name = "ts_Report";
+            this.ts_Report.Size = new System.Drawing.Size(70, 19);
+            this.ts_Report.Text = "&Thống Kê";
             // 
-            // truyVấnToolStripMenuItem
+            // ts_Search
             // 
-            this.truyVấnToolStripMenuItem.Name = "truyVấnToolStripMenuItem";
-            this.truyVấnToolStripMenuItem.Size = new System.Drawing.Size(66, 19);
-            this.truyVấnToolStripMenuItem.Text = "Truy &Vấn";
+            this.ts_Search.Name = "ts_Search";
+            this.ts_Search.Size = new System.Drawing.Size(66, 19);
+            this.ts_Search.Text = "Truy &Vấn";
+            // 
+            // ts_ReportVCScan
+            // 
+            this.ts_ReportVCScan.Name = "ts_ReportVCScan";
+            this.ts_ReportVCScan.Size = new System.Drawing.Size(260, 22);
+            this.ts_ReportVCScan.Text = "Báo cáo chứng thư scan";
+            // 
+            // ts_ReportVCSave
+            // 
+            this.ts_ReportVCSave.Name = "ts_ReportVCSave";
+            this.ts_ReportVCSave.Size = new System.Drawing.Size(260, 22);
+            this.ts_ReportVCSave.Text = "Báo cáo chứng thư lưu";
+            // 
+            // ts_ReportVCPublish
+            // 
+            this.ts_ReportVCPublish.Name = "ts_ReportVCPublish";
+            this.ts_ReportVCPublish.Size = new System.Drawing.Size(260, 22);
+            this.ts_ReportVCPublish.Text = "Báo cáo chứng thư phát hành";
+            // 
+            // ts_reportVCNotPublish
+            // 
+            this.ts_reportVCNotPublish.Name = "ts_reportVCNotPublish";
+            this.ts_reportVCNotPublish.Size = new System.Drawing.Size(260, 22);
+            this.ts_reportVCNotPublish.Text = "Báo cáo chứng thư chưa phát hành";
             // 
             // frm_Main
             // 
@@ -183,8 +216,12 @@
         private System.Windows.Forms.ToolStripMenuItem ts_DestroyVC;
         private System.Windows.Forms.ToolStripMenuItem ts_VCScan;
         private System.Windows.Forms.ToolStripMenuItem ts_VCSave;
-        private System.Windows.Forms.ToolStripMenuItem thốngKêToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem truyVấnToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ts_Report;
+        private System.Windows.Forms.ToolStripMenuItem ts_Search;
+        private System.Windows.Forms.ToolStripMenuItem ts_ReportVCScan;
+        private System.Windows.Forms.ToolStripMenuItem ts_ReportVCSave;
+        private System.Windows.Forms.ToolStripMenuItem ts_ReportVCPublish;
+        private System.Windows.Forms.ToolStripMenuItem ts_reportVCNotPublish;
     }
 }
 
