@@ -16,7 +16,7 @@ namespace QLFS_Test1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Staff());
+            Application.Run(new frm_ValuationCertificate());
         }
     }
 }
