@@ -28,3 +28,4 @@ D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.GenerateResourc
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.CoreCompileInputs.cache
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.exe
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Certificate_revocation.resources
