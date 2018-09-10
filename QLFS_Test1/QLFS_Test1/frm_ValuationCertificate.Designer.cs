@@ -36,21 +36,16 @@
             this.cmd_Update = new System.Windows.Forms.Button();
             this.cmd_Add = new System.Windows.Forms.Button();
             this.txtten = new System.Windows.Forms.GroupBox();
-            this.txt_ContractNumber = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.dtp_DateVC = new System.Windows.Forms.DateTimePicker();
-            this.cbo_IDType = new System.Windows.Forms.ComboBox();
-            this.cbo_IDBranch = new System.Windows.Forms.ComboBox();
-            this.txt_Customer = new System.Windows.Forms.TextBox();
-            this.txt_VCNumber = new System.Windows.Forms.TextBox();
-            this.txt_IDprofile = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -60,16 +55,21 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtkeyword = new System.Windows.Forms.TextBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
+            this.txt_ContractNumber = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.dtp_DateVC = new System.Windows.Forms.DateTimePicker();
+            this.cbo_IDType = new System.Windows.Forms.ComboBox();
+            this.cbo_IDBranch = new System.Windows.Forms.ComboBox();
+            this.txt_VCNumber = new System.Windows.Forms.TextBox();
+            this.txt_IDprofile = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_Customer = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dg_Show)).BeginInit();
             this.txtten.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -99,7 +99,7 @@
             this.dg_Show.Name = "dg_Show";
             this.dg_Show.ReadOnly = true;
             this.dg_Show.RowTemplate.Height = 24;
-            this.dg_Show.Size = new System.Drawing.Size(1354, 258);
+            this.dg_Show.Size = new System.Drawing.Size(1346, 258);
             this.dg_Show.TabIndex = 36;
             // 
             // cmd_Exit
@@ -107,7 +107,7 @@
             this.cmd_Exit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmd_Exit.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Exit.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Exit.Location = new System.Drawing.Point(915, 323);
+            this.cmd_Exit.Location = new System.Drawing.Point(911, 323);
             this.cmd_Exit.Name = "cmd_Exit";
             this.cmd_Exit.Size = new System.Drawing.Size(114, 32);
             this.cmd_Exit.TabIndex = 35;
@@ -119,7 +119,7 @@
             this.cmd_Save.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmd_Save.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Save.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Save.Location = new System.Drawing.Point(762, 323);
+            this.cmd_Save.Location = new System.Drawing.Point(758, 323);
             this.cmd_Save.Name = "cmd_Save";
             this.cmd_Save.Size = new System.Drawing.Size(114, 32);
             this.cmd_Save.TabIndex = 34;
@@ -131,7 +131,7 @@
             this.cmd_Delete.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmd_Delete.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Delete.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Delete.Location = new System.Drawing.Point(605, 323);
+            this.cmd_Delete.Location = new System.Drawing.Point(601, 323);
             this.cmd_Delete.Name = "cmd_Delete";
             this.cmd_Delete.Size = new System.Drawing.Size(114, 32);
             this.cmd_Delete.TabIndex = 33;
@@ -143,7 +143,7 @@
             this.cmd_Update.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmd_Update.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Update.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Update.Location = new System.Drawing.Point(441, 323);
+            this.cmd_Update.Location = new System.Drawing.Point(437, 323);
             this.cmd_Update.Name = "cmd_Update";
             this.cmd_Update.Size = new System.Drawing.Size(114, 32);
             this.cmd_Update.TabIndex = 31;
@@ -155,7 +155,7 @@
             this.cmd_Add.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cmd_Add.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Add.ForeColor = System.Drawing.Color.Black;
-            this.cmd_Add.Location = new System.Drawing.Point(257, 323);
+            this.cmd_Add.Location = new System.Drawing.Point(253, 323);
             this.cmd_Add.Name = "cmd_Add";
             this.cmd_Add.Size = new System.Drawing.Size(114, 32);
             this.cmd_Add.TabIndex = 30;
@@ -188,149 +188,101 @@
             this.txtten.Controls.Add(this.label5);
             this.txtten.Controls.Add(this.label3);
             this.txtten.Controls.Add(this.label2);
-            this.txtten.Location = new System.Drawing.Point(155, 65);
+            this.txtten.Location = new System.Drawing.Point(151, 65);
             this.txtten.Name = "txtten";
             this.txtten.Size = new System.Drawing.Size(1048, 260);
             this.txtten.TabIndex = 29;
             this.txtten.TabStop = false;
             // 
-            // txt_ContractNumber
+            // label15
             // 
-            this.txt_ContractNumber.Location = new System.Drawing.Point(120, 166);
-            this.txt_ContractNumber.Name = "txt_ContractNumber";
-            this.txt_ContractNumber.Size = new System.Drawing.Size(289, 20);
-            this.txt_ContractNumber.TabIndex = 23;
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(461, 139);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(67, 13);
+            this.label15.TabIndex = 34;
+            this.label15.Text = "Loại Tài Sản";
             // 
-            // label12
+            // comboBox1
             // 
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(21, 167);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(72, 13);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "Số Hợp Đồng";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(574, 144);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(294, 21);
+            this.comboBox1.TabIndex = 33;
             // 
-            // dtp_DateVC
+            // textBox2
             // 
-            this.dtp_DateVC.CustomFormat = "dd/MM/yyyy";
-            this.dtp_DateVC.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtp_DateVC.Location = new System.Drawing.Point(574, 119);
-            this.dtp_DateVC.Name = "dtp_DateVC";
-            this.dtp_DateVC.Size = new System.Drawing.Size(294, 20);
-            this.dtp_DateVC.TabIndex = 21;
+            this.textBox2.Location = new System.Drawing.Point(574, 89);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(293, 20);
+            this.textBox2.TabIndex = 32;
             // 
-            // cbo_IDType
+            // label14
             // 
-            this.cbo_IDType.FormattingEnabled = true;
-            this.cbo_IDType.Location = new System.Drawing.Point(120, 141);
-            this.cbo_IDType.Name = "cbo_IDType";
-            this.cbo_IDType.Size = new System.Drawing.Size(289, 21);
-            this.cbo_IDType.TabIndex = 17;
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(461, 93);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(67, 13);
+            this.label14.TabIndex = 31;
+            this.label14.Text = "Khách Hàng";
             // 
-            // cbo_IDBranch
+            // dateTimePicker4
             // 
-            this.cbo_IDBranch.FormattingEnabled = true;
-            this.cbo_IDBranch.Location = new System.Drawing.Point(782, 159);
-            this.cbo_IDBranch.Name = "cbo_IDBranch";
-            this.cbo_IDBranch.Size = new System.Drawing.Size(239, 21);
-            this.cbo_IDBranch.TabIndex = 16;
+            this.dateTimePicker4.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker4.Location = new System.Drawing.Point(120, 218);
+            this.dateTimePicker4.Name = "dateTimePicker4";
+            this.dateTimePicker4.Size = new System.Drawing.Size(288, 20);
+            this.dateTimePicker4.TabIndex = 30;
             // 
-            // txt_Customer
+            // label13
             // 
-            this.txt_Customer.Location = new System.Drawing.Point(361, 405);
-            this.txt_Customer.Name = "txt_Customer";
-            this.txt_Customer.Size = new System.Drawing.Size(289, 20);
-            this.txt_Customer.TabIndex = 13;
+            this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(27, 221);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(66, 13);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "Ngày Xin Số";
             // 
-            // txt_VCNumber
+            // label11
             // 
-            this.txt_VCNumber.Location = new System.Drawing.Point(120, 116);
-            this.txt_VCNumber.Name = "txt_VCNumber";
-            this.txt_VCNumber.Size = new System.Drawing.Size(288, 20);
-            this.txt_VCNumber.TabIndex = 12;
+            this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(21, 194);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(79, 13);
+            this.label11.TabIndex = 28;
+            this.label11.Text = "Loại Hợp Đồng";
             // 
-            // txt_IDprofile
+            // textBox1
             // 
-            this.txt_IDprofile.Enabled = false;
-            this.txt_IDprofile.Location = new System.Drawing.Point(713, 214);
-            this.txt_IDprofile.Name = "txt_IDprofile";
-            this.txt_IDprofile.Size = new System.Drawing.Size(293, 20);
-            this.txt_IDprofile.TabIndex = 11;
+            this.textBox1.Location = new System.Drawing.Point(120, 191);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(289, 20);
+            this.textBox1.TabIndex = 27;
             // 
-            // label8
+            // label10
             // 
-            this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(26, 144);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 13);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "Loại Tài Sản";
+            this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(26, 96);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(67, 13);
+            this.label10.TabIndex = 26;
+            this.label10.Text = "Ngày cho số";
             // 
-            // label7
+            // dateTimePicker3
             // 
-            this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(606, 166);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Đơn Vị Thực Hiện";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(447, 119);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Ngày Phát Hành";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(262, 408);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Khách Hàng";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(35, 119);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Số VC";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(591, 224);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Hồ sơ";
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.BackColor = System.Drawing.Color.Silver;
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(-156, -4);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1691, 66);
-            this.label1.TabIndex = 28;
-            this.label1.Text = "Quản Lý Số Chứng Thư";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dateTimePicker3.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker3.Location = new System.Drawing.Point(120, 90);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(288, 20);
+            this.dateTimePicker3.TabIndex = 25;
             // 
             // groupBox1
             // 
@@ -422,101 +374,149 @@
             this.txtkeyword.Size = new System.Drawing.Size(585, 20);
             this.txtkeyword.TabIndex = 32;
             // 
-            // dateTimePicker3
+            // txt_ContractNumber
             // 
-            this.dateTimePicker3.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker3.Location = new System.Drawing.Point(120, 90);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(288, 20);
-            this.dateTimePicker3.TabIndex = 25;
+            this.txt_ContractNumber.Location = new System.Drawing.Point(120, 166);
+            this.txt_ContractNumber.Name = "txt_ContractNumber";
+            this.txt_ContractNumber.Size = new System.Drawing.Size(289, 20);
+            this.txt_ContractNumber.TabIndex = 23;
             // 
-            // label10
+            // label12
             // 
-            this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(26, 96);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 13);
-            this.label10.TabIndex = 26;
-            this.label10.Text = "Ngày cho số";
+            this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(21, 167);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(72, 13);
+            this.label12.TabIndex = 22;
+            this.label12.Text = "Số Hợp Đồng";
             // 
-            // textBox1
+            // dtp_DateVC
             // 
-            this.textBox1.Location = new System.Drawing.Point(120, 191);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(289, 20);
-            this.textBox1.TabIndex = 27;
+            this.dtp_DateVC.CustomFormat = "dd/MM/yyyy";
+            this.dtp_DateVC.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtp_DateVC.Location = new System.Drawing.Point(574, 119);
+            this.dtp_DateVC.Name = "dtp_DateVC";
+            this.dtp_DateVC.Size = new System.Drawing.Size(294, 20);
+            this.dtp_DateVC.TabIndex = 21;
             // 
-            // label11
+            // cbo_IDType
             // 
-            this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(21, 194);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(79, 13);
-            this.label11.TabIndex = 28;
-            this.label11.Text = "Loại Hợp Đồng";
+            this.cbo_IDType.FormattingEnabled = true;
+            this.cbo_IDType.Location = new System.Drawing.Point(120, 141);
+            this.cbo_IDType.Name = "cbo_IDType";
+            this.cbo_IDType.Size = new System.Drawing.Size(289, 21);
+            this.cbo_IDType.TabIndex = 17;
             // 
-            // dateTimePicker4
+            // cbo_IDBranch
             // 
-            this.dateTimePicker4.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker4.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker4.Location = new System.Drawing.Point(120, 218);
-            this.dateTimePicker4.Name = "dateTimePicker4";
-            this.dateTimePicker4.Size = new System.Drawing.Size(288, 20);
-            this.dateTimePicker4.TabIndex = 30;
+            this.cbo_IDBranch.FormattingEnabled = true;
+            this.cbo_IDBranch.Location = new System.Drawing.Point(782, 159);
+            this.cbo_IDBranch.Name = "cbo_IDBranch";
+            this.cbo_IDBranch.Size = new System.Drawing.Size(239, 21);
+            this.cbo_IDBranch.TabIndex = 16;
             // 
-            // label13
+            // txt_VCNumber
             // 
-            this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.Color.Black;
-            this.label13.Location = new System.Drawing.Point(27, 221);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(66, 13);
-            this.label13.TabIndex = 29;
-            this.label13.Text = "Ngày Xin Số";
+            this.txt_VCNumber.Location = new System.Drawing.Point(120, 116);
+            this.txt_VCNumber.Name = "txt_VCNumber";
+            this.txt_VCNumber.Size = new System.Drawing.Size(288, 20);
+            this.txt_VCNumber.TabIndex = 12;
             // 
-            // textBox2
+            // txt_IDprofile
             // 
-            this.textBox2.Location = new System.Drawing.Point(574, 89);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(293, 20);
-            this.textBox2.TabIndex = 32;
+            this.txt_IDprofile.Enabled = false;
+            this.txt_IDprofile.Location = new System.Drawing.Point(713, 214);
+            this.txt_IDprofile.Name = "txt_IDprofile";
+            this.txt_IDprofile.Size = new System.Drawing.Size(293, 20);
+            this.txt_IDprofile.TabIndex = 11;
             // 
-            // label14
+            // label8
             // 
-            this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.Black;
-            this.label14.Location = new System.Drawing.Point(461, 93);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(67, 13);
-            this.label14.TabIndex = 31;
-            this.label14.Text = "Khách Hàng";
+            this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(26, 144);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(67, 13);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "Loại Tài Sản";
             // 
-            // comboBox1
+            // label7
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(574, 144);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(294, 21);
-            this.comboBox1.TabIndex = 33;
+            this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(606, 166);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(92, 13);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "Đơn Vị Thực Hiện";
             // 
-            // label15
+            // label5
             // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(461, 139);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(67, 13);
-            this.label15.TabIndex = 34;
-            this.label15.Text = "Loại Tài Sản";
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(447, 119);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Ngày Phát Hành";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(35, 119);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Số VC";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(591, 224);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Hồ sơ";
+            // 
+            // txt_Customer
+            // 
+            this.txt_Customer.Location = new System.Drawing.Point(361, 405);
+            this.txt_Customer.Name = "txt_Customer";
+            this.txt_Customer.Size = new System.Drawing.Size(289, 20);
+            this.txt_Customer.TabIndex = 13;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(262, 408);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Khách Hàng";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Navy;
+            this.label1.Location = new System.Drawing.Point(-160, -4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1691, 66);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "Quản Lý Số Chứng Thư";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frm_ValuationCertificate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1378, 631);
+            this.ClientSize = new System.Drawing.Size(1370, 631);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dg_Show);
             this.Controls.Add(this.cmd_Exit);
