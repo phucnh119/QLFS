@@ -13,6 +13,7 @@ C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_T
 C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
 C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_PropertyType.resources
 C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_ValuationCertificate.resources
+<<<<<<< HEAD
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe.config
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.pdb
@@ -29,3 +30,21 @@ D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.CoreCompileInpu
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.exe
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
 D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Certificate_revocation.resources
+=======
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe.config
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.pdb
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csprojAssemblyReference.cache
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Account.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Branch.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Login.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Main.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_PropertyType.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Staff.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_ValuationCertificate.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.Properties.Resources.resources
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.GenerateResource.cache
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.CoreCompileInputs.cache
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.exe
+D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
