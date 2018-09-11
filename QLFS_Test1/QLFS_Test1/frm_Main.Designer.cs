@@ -29,6 +29,20 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+<<<<<<< HEAD
+            this.hệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýChiNhánhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýNgườiDùngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýNhânViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nhậtKýNgườiDùngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quảnLýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tàiSảnThẩmĐịnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cấpSốChứngThưToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chứngThưHủyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chứngThưScanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chứngThưLưuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thốngKêToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
             this.ts_System = new System.Windows.Forms.ToolStripMenuItem();
             this.ts_Branch = new System.Windows.Forms.ToolStripMenuItem();
             this.ts_User = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,16 +60,23 @@
             this.ts_ReportVCSave = new System.Windows.Forms.ToolStripMenuItem();
             this.ts_ReportVCPublish = new System.Windows.Forms.ToolStripMenuItem();
             this.ts_reportVCNotPublish = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+<<<<<<< HEAD
+            this.hệThốngToolStripMenuItem,
+            this.quảnLýToolStripMenuItem,
+            this.thốngKêToolStripMenuItem});
+=======
             this.ts_System,
             this.ts_Manage,
             this.ts_Report,
             this.ts_Search});
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
@@ -63,6 +84,9 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+<<<<<<< HEAD
+            // hệThốngToolStripMenuItem
+=======
             // ts_System
             // 
             this.ts_System.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -75,6 +99,7 @@
             this.ts_System.Text = "&Hệ Thống";
             // 
             // ts_Branch
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
             // 
             this.ts_Branch.Name = "ts_Branch";
             this.ts_Branch.Size = new System.Drawing.Size(186, 22);
@@ -157,6 +182,8 @@
             this.ts_Search.Size = new System.Drawing.Size(66, 19);
             this.ts_Search.Text = "Truy &Vấn";
             // 
+<<<<<<< HEAD
+=======
             // ts_ReportVCScan
             // 
             this.ts_ReportVCScan.Name = "ts_ReportVCScan";
@@ -181,6 +208,7 @@
             this.ts_reportVCNotPublish.Size = new System.Drawing.Size(260, 22);
             this.ts_reportVCNotPublish.Text = "Báo cáo chứng thư chưa phát hành";
             // 
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -205,6 +233,20 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
+<<<<<<< HEAD
+        private System.Windows.Forms.ToolStripMenuItem hệThốngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýChiNhánhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýNgườiDùngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýNhânViênToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nhậtKýNgườiDùngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tàiSảnThẩmĐịnhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cấpSốChứngThưToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chứngThưHủyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chứngThưScanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chứngThưLưuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thốngKêToolStripMenuItem;
+=======
         private System.Windows.Forms.ToolStripMenuItem ts_System;
         private System.Windows.Forms.ToolStripMenuItem ts_Manage;
         private System.Windows.Forms.ToolStripMenuItem ts_Branch;
@@ -222,6 +264,7 @@
         private System.Windows.Forms.ToolStripMenuItem ts_ReportVCSave;
         private System.Windows.Forms.ToolStripMenuItem ts_ReportVCPublish;
         private System.Windows.Forms.ToolStripMenuItem ts_reportVCNotPublish;
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
     }
 }
 

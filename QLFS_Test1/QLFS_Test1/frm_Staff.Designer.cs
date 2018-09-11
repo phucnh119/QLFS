@@ -52,7 +52,7 @@
             this.cmd_Exit.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Exit.ForeColor = System.Drawing.Color.Black;
             this.cmd_Exit.Location = new System.Drawing.Point(526, 284);
-            this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4);
+            this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmd_Exit.Name = "cmd_Exit";
             this.cmd_Exit.Size = new System.Drawing.Size(113, 31);
             this.cmd_Exit.TabIndex = 25;
@@ -65,7 +65,7 @@
             this.cmd_Save.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Save.ForeColor = System.Drawing.Color.Black;
             this.cmd_Save.Location = new System.Drawing.Point(405, 284);
-            this.cmd_Save.Margin = new System.Windows.Forms.Padding(4);
+            this.cmd_Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmd_Save.Name = "cmd_Save";
             this.cmd_Save.Size = new System.Drawing.Size(113, 31);
             this.cmd_Save.TabIndex = 24;
@@ -78,7 +78,7 @@
             this.cmd_Delete.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Delete.ForeColor = System.Drawing.Color.Black;
             this.cmd_Delete.Location = new System.Drawing.Point(284, 284);
-            this.cmd_Delete.Margin = new System.Windows.Forms.Padding(4);
+            this.cmd_Delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmd_Delete.Name = "cmd_Delete";
             this.cmd_Delete.Size = new System.Drawing.Size(113, 31);
             this.cmd_Delete.TabIndex = 23;
@@ -91,7 +91,7 @@
             this.cmd_Update.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Update.ForeColor = System.Drawing.Color.Black;
             this.cmd_Update.Location = new System.Drawing.Point(163, 284);
-            this.cmd_Update.Margin = new System.Windows.Forms.Padding(4);
+            this.cmd_Update.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmd_Update.Name = "cmd_Update";
             this.cmd_Update.Size = new System.Drawing.Size(113, 31);
             this.cmd_Update.TabIndex = 22;
@@ -104,7 +104,7 @@
             this.cmd_Add.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Add.ForeColor = System.Drawing.Color.Black;
             this.cmd_Add.Location = new System.Drawing.Point(42, 284);
-            this.cmd_Add.Margin = new System.Windows.Forms.Padding(4);
+            this.cmd_Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmd_Add.Name = "cmd_Add";
             this.cmd_Add.Size = new System.Drawing.Size(113, 31);
             this.cmd_Add.TabIndex = 21;
@@ -113,13 +113,10 @@
             // 
             // dg_Show
             // 
-            this.dg_Show.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.dg_Show.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dg_Show.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dg_Show.Location = new System.Drawing.Point(13, 323);
-            this.dg_Show.Margin = new System.Windows.Forms.Padding(4);
+            this.dg_Show.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dg_Show.Name = "dg_Show";
             this.dg_Show.RowTemplate.Height = 24;
             this.dg_Show.Size = new System.Drawing.Size(1336, 405);
@@ -130,7 +127,7 @@
             this.cbo_IDBranch.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.cbo_IDBranch.FormattingEnabled = true;
             this.cbo_IDBranch.Location = new System.Drawing.Point(289, 202);
-            this.cbo_IDBranch.Margin = new System.Windows.Forms.Padding(4);
+            this.cbo_IDBranch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbo_IDBranch.Name = "cbo_IDBranch";
             this.cbo_IDBranch.Size = new System.Drawing.Size(408, 27);
             this.cbo_IDBranch.TabIndex = 19;
@@ -139,7 +136,7 @@
             // 
             this.txt_FullName.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txt_FullName.Location = new System.Drawing.Point(289, 164);
-            this.txt_FullName.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_FullName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_FullName.Name = "txt_FullName";
             this.txt_FullName.Size = new System.Drawing.Size(408, 26);
             this.txt_FullName.TabIndex = 18;
@@ -148,7 +145,7 @@
             // 
             this.txt_IDStaff.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txt_IDStaff.Location = new System.Drawing.Point(289, 126);
-            this.txt_IDStaff.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_IDStaff.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_IDStaff.Name = "txt_IDStaff";
             this.txt_IDStaff.Size = new System.Drawing.Size(408, 26);
             this.txt_IDStaff.TabIndex = 17;
@@ -243,7 +240,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frm_Staff";
             this.Text = "Quản lý nhân viên";
             ((System.ComponentModel.ISupportInitialize)(this.dg_Show)).EndInit();

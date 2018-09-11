@@ -13,6 +13,24 @@ C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_T
 C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
 C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_PropertyType.resources
 C:\Users\BinhOnkyo\Desktop\betaQLFS_test1\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_ValuationCertificate.resources
+<<<<<<< HEAD
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe.config
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.pdb
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csprojAssemblyReference.cache
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Branch.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Login.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Main.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_PropertyType.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Staff.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_ValuationCertificate.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.Properties.Resources.resources
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.GenerateResource.cache
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.CoreCompileInputs.cache
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.exe
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
+D:\ITDept\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Certificate_revocation.resources
+=======
 D:\Github\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe.config
 D:\Github\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe
 D:\Github\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.pdb
@@ -29,19 +47,4 @@ D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.GenerateResourc
 D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.CoreCompileInputs.cache
 D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.exe
 D:\Github\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe.config
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.exe
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\bin\Debug\QLFS_Test1.pdb
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csprojAssemblyReference.cache
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Account.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Branch.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Login.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Main.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_PropertyType.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_Staff.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.frm_ValuationCertificate.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.Properties.Resources.resources
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.GenerateResource.cache
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.csproj.CoreCompileInputs.cache
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.exe
-C:\Users\phucnh\Documents\GitHub\QLFS\QLFS_Test1\QLFS_Test1\obj\Debug\QLFS_Test1.pdb
+>>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
