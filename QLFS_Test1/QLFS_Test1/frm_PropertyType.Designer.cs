@@ -44,13 +44,15 @@
             // 
             // dg_Show
             // 
-            this.dg_Show.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dg_Show.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dg_Show.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dg_Show.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dg_Show.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dg_Show.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dg_Show.Location = new System.Drawing.Point(15, 232);
-            this.dg_Show.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dg_Show.Margin = new System.Windows.Forms.Padding(4);
             this.dg_Show.Name = "dg_Show";
             this.dg_Show.RowTemplate.Height = 24;
             this.dg_Show.Size = new System.Drawing.Size(677, 496);
@@ -58,11 +60,13 @@
             // 
             // cmd_Exit
             // 
-            this.cmd_Exit.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cmd_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Exit.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Exit.ForeColor = System.Drawing.Color.Black;
             this.cmd_Exit.Location = new System.Drawing.Point(490, 194);
-            this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Exit.Name = "cmd_Exit";
             this.cmd_Exit.Size = new System.Drawing.Size(81, 30);
             this.cmd_Exit.TabIndex = 31;
@@ -71,11 +75,13 @@
             // 
             // cmd_Save
             // 
-            this.cmd_Save.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cmd_Save.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Save.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Save.ForeColor = System.Drawing.Color.Black;
             this.cmd_Save.Location = new System.Drawing.Point(401, 194);
-            this.cmd_Save.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Save.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Save.Name = "cmd_Save";
             this.cmd_Save.Size = new System.Drawing.Size(81, 30);
             this.cmd_Save.TabIndex = 30;
@@ -84,11 +90,13 @@
             // 
             // cmd_Delete
             // 
-            this.cmd_Delete.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cmd_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Delete.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Delete.ForeColor = System.Drawing.Color.Black;
             this.cmd_Delete.Location = new System.Drawing.Point(312, 194);
-            this.cmd_Delete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Delete.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Delete.Name = "cmd_Delete";
             this.cmd_Delete.Size = new System.Drawing.Size(81, 30);
             this.cmd_Delete.TabIndex = 29;
@@ -97,11 +105,13 @@
             // 
             // cmd_Update
             // 
-            this.cmd_Update.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cmd_Update.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Update.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Update.ForeColor = System.Drawing.Color.Black;
             this.cmd_Update.Location = new System.Drawing.Point(223, 194);
-            this.cmd_Update.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Update.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Update.Name = "cmd_Update";
             this.cmd_Update.Size = new System.Drawing.Size(81, 30);
             this.cmd_Update.TabIndex = 28;
@@ -110,11 +120,13 @@
             // 
             // cmd_Add
             // 
-            this.cmd_Add.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.cmd_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Add.BackColor = System.Drawing.Color.DarkGray;
             this.cmd_Add.ForeColor = System.Drawing.Color.Black;
             this.cmd_Add.Location = new System.Drawing.Point(134, 194);
-            this.cmd_Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmd_Add.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Add.Name = "cmd_Add";
             this.cmd_Add.Size = new System.Drawing.Size(81, 30);
             this.cmd_Add.TabIndex = 27;
@@ -123,25 +135,31 @@
             // 
             // txt_Property
             // 
-            this.txt_Property.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_Property.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Property.Location = new System.Drawing.Point(122, 160);
-            this.txt_Property.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_Property.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Property.Name = "txt_Property";
             this.txt_Property.Size = new System.Drawing.Size(556, 26);
             this.txt_Property.TabIndex = 26;
             // 
             // txt_IDType
             // 
-            this.txt_IDType.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_IDType.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_IDType.Location = new System.Drawing.Point(122, 126);
-            this.txt_IDType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txt_IDType.Margin = new System.Windows.Forms.Padding(4);
             this.txt_IDType.Name = "txt_IDType";
             this.txt_IDType.Size = new System.Drawing.Size(556, 26);
             this.txt_IDType.TabIndex = 25;
             // 
             // label3
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(28, 163);
@@ -153,7 +171,9 @@
             // 
             // label2
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(28, 129);
@@ -165,7 +185,9 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.DarkGray;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -195,7 +217,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_PropertyType";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Thông tin tài sản";

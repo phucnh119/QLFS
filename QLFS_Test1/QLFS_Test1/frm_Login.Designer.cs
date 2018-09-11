@@ -39,6 +39,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(265, 29);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -49,6 +52,9 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(15, 123);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -59,6 +65,9 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 155);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -69,6 +78,9 @@
             // 
             // txt_User
             // 
+            this.txt_User.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_User.Location = new System.Drawing.Point(111, 118);
             this.txt_User.Margin = new System.Windows.Forms.Padding(4);
             this.txt_User.Name = "txt_User";
@@ -77,6 +89,9 @@
             // 
             // txt_Password
             // 
+            this.txt_Password.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Password.Location = new System.Drawing.Point(111, 152);
             this.txt_Password.Margin = new System.Windows.Forms.Padding(4);
             this.txt_Password.Name = "txt_Password";
@@ -86,6 +101,9 @@
             // 
             // cmd_Login
             // 
+            this.cmd_Login.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Login.Location = new System.Drawing.Point(198, 202);
             this.cmd_Login.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Login.Name = "cmd_Login";
@@ -96,6 +114,9 @@
             // 
             // cmd_Exit
             // 
+            this.cmd_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Exit.Location = new System.Drawing.Point(351, 202);
             this.cmd_Exit.Margin = new System.Windows.Forms.Padding(4);
             this.cmd_Exit.Name = "cmd_Exit";

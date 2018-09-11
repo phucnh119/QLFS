@@ -39,7 +39,7 @@
             this.dg_Show = new System.Windows.Forms.DataGridView();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.cmd_Them = new System.Windows.Forms.Button();
+            this.cmd_Add = new System.Windows.Forms.Button();
             this.cmd_Update = new System.Windows.Forms.Button();
             this.cmd_Save = new System.Windows.Forms.Button();
             this.cmd_Delete = new System.Windows.Forms.Button();
@@ -172,17 +172,17 @@
             this.label6.TabIndex = 12;
             this.label6.Text = "Tìm Kiếm";
             // 
-            // cmd_Them
+            // cmd_Add
             // 
-            this.cmd_Them.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cmd_Add.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.cmd_Them.Location = new System.Drawing.Point(188, 253);
-            this.cmd_Them.Name = "cmd_Them";
-            this.cmd_Them.Size = new System.Drawing.Size(75, 23);
-            this.cmd_Them.TabIndex = 13;
-            this.cmd_Them.Text = "Thêm";
-            this.cmd_Them.UseVisualStyleBackColor = true;
+            this.cmd_Add.Location = new System.Drawing.Point(188, 253);
+            this.cmd_Add.Name = "cmd_Add";
+            this.cmd_Add.Size = new System.Drawing.Size(75, 23);
+            this.cmd_Add.TabIndex = 13;
+            this.cmd_Add.Text = "Thêm";
+            this.cmd_Add.UseVisualStyleBackColor = true;
             // 
             // cmd_Update
             // 
@@ -253,7 +253,7 @@
             this.Controls.Add(this.cmd_Delete);
             this.Controls.Add(this.cmd_Save);
             this.Controls.Add(this.cmd_Update);
-            this.Controls.Add(this.cmd_Them);
+            this.Controls.Add(this.cmd_Add);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dg_Show);
@@ -268,7 +268,9 @@
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frm_Account";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý người dùng";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dg_Show)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -288,7 +290,7 @@
         private System.Windows.Forms.DataGridView dg_Show;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button cmd_Them;
+        private System.Windows.Forms.Button cmd_Add;
         private System.Windows.Forms.Button cmd_Update;
         private System.Windows.Forms.Button cmd_Save;
         private System.Windows.Forms.Button cmd_Delete;
