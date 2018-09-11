@@ -19,7 +19,7 @@ namespace QLFS_Test1
 <<<<<<< HEAD
             Application.Run(new frm_ValuationCertificate());
 =======
-            Application.Run(new frm_Main());
+            Application.Run(new frm_Login());
 >>>>>>> bdf4b81aa6b6e598696aa5ddb1aac1e6d7fcd55e
         }
     }
