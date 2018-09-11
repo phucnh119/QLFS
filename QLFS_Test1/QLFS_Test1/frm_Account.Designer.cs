@@ -50,6 +50,9 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(259, 13);
             this.label1.Name = "label1";
@@ -59,6 +62,9 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 78);
             this.label2.Name = "label2";
@@ -68,6 +74,9 @@
             // 
             // label3
             // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 111);
             this.label3.Name = "label3";
@@ -77,6 +86,9 @@
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 144);
             this.label4.Name = "label4";
@@ -86,6 +98,9 @@
             // 
             // txt_User
             // 
+            this.txt_User.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_User.Location = new System.Drawing.Point(188, 75);
             this.txt_User.Name = "txt_User";
             this.txt_User.Size = new System.Drawing.Size(378, 26);
@@ -93,6 +108,9 @@
             // 
             // txt_Password
             // 
+            this.txt_Password.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_Password.Location = new System.Drawing.Point(188, 108);
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.Size = new System.Drawing.Size(378, 26);
@@ -100,6 +118,9 @@
             // 
             // label5
             // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 177);
             this.label5.Name = "label5";
@@ -109,6 +130,9 @@
             // 
             // cbo_Menulist
             // 
+            this.cbo_Menulist.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbo_Menulist.FormattingEnabled = true;
             this.cbo_Menulist.Location = new System.Drawing.Point(188, 174);
             this.cbo_Menulist.Name = "cbo_Menulist";
@@ -117,6 +141,9 @@
             // 
             // dg_Show
             // 
+            this.dg_Show.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dg_Show.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dg_Show.Location = new System.Drawing.Point(596, 75);
             this.dg_Show.Name = "dg_Show";
@@ -125,6 +152,9 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(188, 208);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(378, 26);
@@ -132,6 +162,9 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(13, 211);
             this.label6.Name = "label6";
@@ -141,6 +174,9 @@
             // 
             // cmd_Them
             // 
+            this.cmd_Them.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Them.Location = new System.Drawing.Point(188, 253);
             this.cmd_Them.Name = "cmd_Them";
             this.cmd_Them.Size = new System.Drawing.Size(75, 23);
@@ -150,6 +186,9 @@
             // 
             // cmd_Update
             // 
+            this.cmd_Update.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Update.Location = new System.Drawing.Point(270, 253);
             this.cmd_Update.Name = "cmd_Update";
             this.cmd_Update.Size = new System.Drawing.Size(75, 23);
@@ -159,6 +198,9 @@
             // 
             // cmd_Save
             // 
+            this.cmd_Save.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Save.Location = new System.Drawing.Point(352, 253);
             this.cmd_Save.Name = "cmd_Save";
             this.cmd_Save.Size = new System.Drawing.Size(75, 23);
@@ -168,6 +210,9 @@
             // 
             // cmd_Delete
             // 
+            this.cmd_Delete.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Delete.Location = new System.Drawing.Point(434, 253);
             this.cmd_Delete.Name = "cmd_Delete";
             this.cmd_Delete.Size = new System.Drawing.Size(75, 23);
@@ -177,6 +222,9 @@
             // 
             // cmd_Exit
             // 
+            this.cmd_Exit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cmd_Exit.Location = new System.Drawing.Point(516, 253);
             this.cmd_Exit.Name = "cmd_Exit";
             this.cmd_Exit.Size = new System.Drawing.Size(75, 23);
@@ -186,6 +234,9 @@
             // 
             // cbo_FullName
             // 
+            this.cbo_FullName.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.cbo_FullName.FormattingEnabled = true;
             this.cbo_FullName.Location = new System.Drawing.Point(188, 141);
             this.cbo_FullName.Name = "cbo_FullName";
