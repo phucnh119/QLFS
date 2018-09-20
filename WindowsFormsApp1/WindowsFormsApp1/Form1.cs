@@ -9,10 +9,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -53,6 +55,29 @@ namespace WindowsFormsApp1
              *Thực hiện câu truy vấn Update theo điều sau: Update tên bảng set FilePath = cột trên datagridview where IDProfile = IDProfile trên datagirdview
              * Thông báo khi đã hoàn tất
              * Báo lỗi*/
+            Class1 con = new Class1();
+            string sql;
+            DataGridViewRow row = new DataGridViewRow();
+            
+            try
+            {
+                //for (int i = 0; i < 5266; i++)
+                //{
+                //    row = dataGridView1.Rows[i];
+                //    sql = "Update ValuationCertificate set FilePath =N'" + row.Cells[7].Value.ToString() + "' where VC_Number=N'" + row.Cells[1].Value.ToString() + "'";
+                //    con.ExecuteNonQuery(sql);
+                //}
+                for (int i = 0; i < 5266; i++)
+                {
+                    row = dataGridView1.Rows[i];
+                    sql = "Update ValuationCertificate set FilePath =N'" + row.Cells[7].Value.ToString() + "' where VC_Number=N'" + row.Cells[1].Value.ToString() + "'";
+                    con.ExecuteNonQuery(sql);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
     }
 }
