@@ -1,0 +1,15 @@
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.ADODB.dll
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.ADOR.dll
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.MSDAOSP.dll
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Interop.MSDASC.dll
+C:\Users\phucnh\Documents\GitHub\QLFS\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.ResolveComReference.cache
