@@ -1,0 +1,39 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp1
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            /* Sử dụng cấu trúc try catch để viết*/
+            /*đọc file excel lên datagrid view*/
+
+            /*Thông báo khi đã đọc hoàn thành file excel
+             * Nếu có lỗi trong quá trình đọc thì thông báo lỗi đó là gì*/
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            /*sử dụng try catch để viết*/
+            /*Thực hiện câu lệnh connect đến sql server
+             * Chạy vòng lặp for
+             *Thực hiện câu truy vấn Update theo điều sau: Update tên bảng set FilePath = cột trên datagridview where IDProfile = IDProfile trên datagirdview
+             * Thông báo khi đã hoàn tất
+             * Báo lỗi*/
+        }
+    }
+}
